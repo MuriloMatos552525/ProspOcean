@@ -1,3 +1,4 @@
+// App.js
 import 'react-native-gesture-handler';
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
@@ -24,17 +25,17 @@ const App = () => {
           component={TelaHome}
           options={{ headerShown: false }}
         />
-          <Stack.Screen
+        <Stack.Screen
           name="TelaLogin"
           component={TelaLogin}
           options={{ headerShown: false }}
         />
-          <Stack.Screen
+        <Stack.Screen
           name="TelaCadastro"
           component={TelaCadastro}
           options={{ headerShown: false }}
         />
-          <Stack.Screen
+        <Stack.Screen
           name="TelaInicial"
           component={TelaInicial}
           options={{ headerShown: false }}
